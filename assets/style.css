@@ -1,0 +1,19 @@
+.columns {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* padding-top: 5.5rem; */
+  column-gap: 2rem;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  font-size: 50px;
+  color: #1c9099;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 35px;
+  color: #a6bddb;
+}
